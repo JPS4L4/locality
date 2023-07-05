@@ -1,0 +1,40 @@
+.contenedorServicios{
+    background-image: linear-gradient(to left, #f72424d5, #3022fae9);
+    color: #fbfbfb;
+    border-radius: 5%;
+    padding: 10%;
+}
+
+.contenedorServicios:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    cursor:pointer;
+}
+
+.contenedorServicios:hover .iconoServicios{
+    font-size:300%;
+    margin-bottom: 12%;
+    margin-top: 15%
+}
+
+.contenedorServicios *{
+    transition: all 0.3s ease-out;
+}
+
+.contenedorServicios:hover *{
+    transform: scale(1.0);
+}
+
+.divServicios{
+    text-align:center;
+    margin: 1.5em auto;
+}
+
+.iconoServicios{
+    font-size:200%;
+}
+
+.textoServicios{
+    text-align: center;
+    font-size: 175%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}

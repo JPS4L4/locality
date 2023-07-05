@@ -1,0 +1,145 @@
+.imgCarrusel{
+    border-radius: 30px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.divDetalle{
+    border-radius: 30px;
+}
+
+.divDetalle img{
+    border-radius: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.divInformacion{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 5px;
+}
+.divInformacion:hover{
+    cursor: pointer;
+}
+
+.divPlegable{
+    background-color: #7297f0;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#divPlegable {
+    display: none;
+    /* Estilos adicionales para el contenido del div plegable */
+  }
+  
+.bgCardContactos{
+    background-image: linear-gradient(to left, #f72424ab,#f00c0cb2, #3022fabe);
+    color: #fbfbfb;
+    border-radius: 5%;
+    padding: 10%;
+}
+
+.arregloCategorias{
+    margin: 10px;
+    padding: 4px;
+}
+
+.arregloCategorias:hover{
+    transform: scale(1.2);
+    animation: destello 3s infinite;
+}
+
+@keyframes destello {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.arregloInfoServicios{
+    font-family: Roboto;
+    font-size: 50px;
+    color: #fbfbfb;
+}
+
+.arregloTituloContactos{
+    color: #fbfbfb;
+    font-size: 42px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2px;
+}
+
+.arregloNombreProductos{
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+}
+
+.cardProductos{
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.cardProductos:hover{
+    transform: scale(0.9);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.imgProductos{
+    margin: 2px;
+}
+
+.imgProductos:hover{
+    transform: scale(0.8);
+}
+
+.arregloTitulo{
+    background-image: linear-gradient(to bottom, #000000, #666666);
+    background-clip: text;
+    -webkit-background-clip: text; /* Para navegadores webkit */
+    color: transparent;
+    padding: 20px;
+}
+
+.contenedorServicios{
+    background-image: linear-gradient(to left, #f72424d5, #3022fae9);
+    color: #fbfbfb;
+    border-radius: 5%;
+    padding: 10%;
+}
+
+.contenedorServicios:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    cursor:pointer;
+}
+
+.contenedorServicios:hover .iconoServicios{
+    font-size:300%;
+    margin-bottom: 12%;
+    margin-top: 15%
+}
+
+.contenedorServicios *{
+    transition: all 0.3s ease-out;
+}
+
+.contenedorServicios:hover *{
+    transform: scale(1.0);
+}
+
+.divServicios{
+    text-align:center;
+    margin: 1.5em auto;
+}
+
+.iconoServicios{
+    font-size:200%;
+}
+
+.textoServicios{
+    text-align: center;
+    font-size: 175%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
